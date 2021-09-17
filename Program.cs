@@ -8,7 +8,9 @@ namespace Medidas
         {
  
           double metros, metrosparacm, metrosparakm;
+
           Console.Write("Entre com a medida em metros: ");
+          
           metros = Convert.ToDouble(Console.ReadLine());
         
           Console.WriteLine("\n----Equivalencia----");
